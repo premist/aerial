@@ -1,0 +1,64 @@
+#loading {
+  background-color: #232323;
+}
+
+#loading-title {
+  top: 259px;
+  opacity: 0;
+  
+  color: #fff;
+  font-size: 50px;
+  font-family: "Avenir";
+  font-weight: thin;
+  text-transform: lowercase;
+  text-align: center;
+  
+  animation-name: fadein;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#activity-indicator {
+  top: 480px;
+  left: 140px;
+  opacity: 0;
+  animation-name: fadein;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#home {
+  background-color: #fdba4e;
+}
+
+#aq-value {
+  top: 224px;
+  opacity: 0;
+  color: #fff;
+  font-size: 120px;
+  font-family: "Avenir";
+  font-weight: normal;
+  text-align: center;
+  
+  animation-name: fadein;
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+}
+
+#home.aq-good { background-color: #00b5f1; }
+#home.aq-moderate { background-color: #fdba4e; }
+#home.aq-bad { background-color: #e45420; }
+#home.aq-verybad { background-color: #e71818; }
+
+
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
