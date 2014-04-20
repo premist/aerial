@@ -34,7 +34,6 @@ class HomeScreen < PM::Screen
   end
   
   def fetch_airquality
-    api_key="BW5UvN5YMS0HvyNLY3G9KwNteJPOdCYL1TCqaEBqmKHYt1IGmq9H+dKuLUJTeC1WsNUgg3jIeeNykvfAGA5Fhw=="
     api_endpoint = "http://openapi.airkorea.or.kr/openapi/services/rest/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty"
     
     EM.schedule_on_main {
@@ -43,7 +42,7 @@ class HomeScreen < PM::Screen
         sidoName: "서울",
         numOfRows: 50,
         pageNo: 1,
-        ServiceKey: api_key
+        ServiceKey: ENV['AIRKOREA_API_KEY']
       ) do |response|
         
         parse_airquality(response.body)

@@ -22,4 +22,7 @@ resources/app.yml
 
 # Remove Pixate Freestyle
 vendor/PixateFreestyle.framework
+
 vendor/Pods
+
+config.yml

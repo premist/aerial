@@ -39,6 +39,7 @@ GEM
       bundler
     motion-cocoapods (1.4.1)
       cocoapods (>= 0.32.1)
+    motion-env (0.0.3)
     motion-pixatefreestyle (2.1)
       sass
     motion-require (0.2.0)
@@ -62,6 +63,7 @@ DEPENDENCIES
   afmotion (~> 2.1.0)
   bubble-wrap
   motion-cocoapods (~> 1.4.1)
+  motion-env
   motion-pixatefreestyle
   rake
   sugarcube

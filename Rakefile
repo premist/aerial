@@ -1,16 +1,23 @@
 # -*- coding: utf-8 -*-
 $:.unshift("/Library/RubyMotion/lib")
 require 'motion/project/template/ios'
-require "rubygems"
+require 'rubygems'
+require 'yaml'
 require 'bundler'
 Bundler.require
 
 Motion::Project::App.setup do |app|
-  # Use `rake config' to see complete project settings.
+  
+  # config
+  config = YAML.load_file('config.yml')
+  config.each do |key, value|
+    app.env[key] = value
+  end
+  
   app.name = 'aerial'
   app.pixatefreestyle.framework = 'vendor/PixateFreestyle.framework'
-  app.provisioning_profile = '/Users/premist/Library/MobileDevice/Provisioning Profiles/E9754F72-4572-4AE9-B7A3-31C488ADB804.mobileprovision'
-  app.codesign_certificate = 'iPhone Developer: Minku Lee (79UR38G6JY)'
+  app.provisioning_profile = ENV['PROVISIONING_PROFILE']
+  app.codesign_certificate = ENV['CODESIGN_CERTIFICATE']
   
   app.pods do
     pod 'SVPullToRefresh'
