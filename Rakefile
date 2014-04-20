@@ -15,9 +15,11 @@ Motion::Project::App.setup do |app|
   end
   
   app.name = 'aerial'
-  app.pixatefreestyle.framework = 'vendor/PixateFreestyle.framework'
   app.provisioning_profile = ENV['PROVISIONING_PROFILE']
   app.codesign_certificate = ENV['CODESIGN_CERTIFICATE']
+  
+  app.pixatefreestyle.framework = 'vendor/PixateFreestyle.framework'
+  app.interface_orientations = [:portrait]
   
   app.pods do
     pod 'SVPullToRefresh'
