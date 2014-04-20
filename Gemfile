@@ -13,10 +13,11 @@ gem "motion-pixatefreestyle"
 
 # Utilities
 gem "sugarcube", :require => "sugarcube-classic"
-gem "motion-env" # config
+gem "bubble-wrap", :require => ["bubble-wrap/core", "bubble-wrap/reactor"]
+gem "motion-env" # Config management
 gem "afmotion", "~> 2.1.0" # Networking
 gem "wakizashi" # XML parsing
-gem "bubble-wrap", :require => ["bubble-wrap/core", "bubble-wrap/reactor"]
+gem "motion-testflight" # Distribution
 
 
 

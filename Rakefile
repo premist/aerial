@@ -15,14 +15,31 @@ Motion::Project::App.setup do |app|
   end
   
   app.name = 'aerial'
-  app.provisioning_profile = ENV['PROVISIONING_PROFILE']
-  app.codesign_certificate = ENV['CODESIGN_CERTIFICATE']
+  app.identifier = 'com.premist.aerial'
+  app.provisioning_profile = config['PROVISIONING_PROFILE']
+  app.codesign_certificate = config['CODESIGN_CERTIFICATE']
+  
+  # Enable when deploying to TestFlight
+  # app.entitlements['get-task-allow'] = false
   
   app.pixatefreestyle.framework = 'vendor/PixateFreestyle.framework'
+  app.device_family = [:iphone]
   app.interface_orientations = [:portrait]
   
   app.pods do
     pod 'SVPullToRefresh'
+  end
+  
+  app.development do
+    
+    app.testflight do
+      app.testflight.sdk = 'vendor/TestFlightSDK'
+      app.testflight.app_token = config['TESTFLIGHT_APP_TOKEN']
+      app.testflight.api_token = config['TESTFLIGHT_API_TOKEN']
+      app.testflight.team_token = config['TESTFLIGHT_TEAM_TOKEN']
+      app.testflight.notify = true
+      app.testflight.identify_testers = true
+    end
   end
   
 end

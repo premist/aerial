@@ -20,9 +20,9 @@ nbproject
 # Ignore motion-config-vars config file
 resources/app.yml
 
-# Remove Pixate Freestyle
-vendor/PixateFreestyle.framework
-
+# CocoaPods
 vendor/Pods
+vendor/PixateFreestyle.framework
+vendor/TestFlightSDK
 
 config.yml
