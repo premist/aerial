@@ -19,8 +19,8 @@ Motion::Project::App.setup do |app|
   app.provisioning_profile = config['PROVISIONING_PROFILE']
   app.codesign_certificate = config['CODESIGN_CERTIFICATE']
   
-  # Enable when deploying to TestFlight
-  # app.entitlements['get-task-allow'] = false
+  # Change to false when deploying to TestFlight
+  # app.entitlements['get-task-allow'] = true
   
   app.pixatefreestyle.framework = 'vendor/PixateFreestyle.framework'
   app.device_family = [:iphone]
