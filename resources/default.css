@@ -21,6 +21,14 @@
   text-align: center;
 }
 
+.ip4s #aq-value {
+  top: 184px;
+}
+
+.ip4s #aq-last-updated {
+  top: 420px;
+}
+
 #aq-last-updated {
   top: 500px;
   color: #fff;

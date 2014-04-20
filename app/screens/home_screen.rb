@@ -9,6 +9,10 @@ class HomeScreen < PM::Screen
     @root.contentSize = CGSizeMake(320,550)
     view << @root
     
+    if Device.screen.height == 480
+      @root.styleClass = "ip4s"
+    end
+    
     @block = UIView.alloc.initWithFrame([[0,0], [320,20]])
     @block.styleId = "status-block"
     view << @block
