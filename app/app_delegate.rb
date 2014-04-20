@@ -3,7 +3,7 @@ class AppDelegate < PM::Delegate
 
   def on_load(app, options)
     PixateFreestyle.currentApplicationStylesheet.monitorChanges = true
-    open LoadingScreen.new
+    open HomeScreen.new
   end
   
 end

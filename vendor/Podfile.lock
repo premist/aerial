@@ -18,13 +18,16 @@ PODS:
   - AFNetworking/UIKit (2.1.0):
     - AFNetworking/NSURLConnection
   - GDataXML-HTML (1.1.0)
+  - SVPullToRefresh (0.4.1)
 
 DEPENDENCIES:
   - AFNetworking (~> 2.1.0)
   - GDataXML-HTML
+  - SVPullToRefresh
 
 SPEC CHECKSUMS:
   AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
   GDataXML-HTML: 281ea772a286241f860fa152cff5c7a7cd817336
+  SVPullToRefresh: 61a0e4bd12bd6f8e3465909810b0fbeb1a28d5f2
 
 COCOAPODS: 0.32.1
