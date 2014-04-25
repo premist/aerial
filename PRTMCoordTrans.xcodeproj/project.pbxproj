@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B419DAD190A872200ADFDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B419DAC190A872200ADFDD3 /* Foundation.framework */; };
+		5B419DB2190A872200ADFDD3 /* PRTMCoordTrans.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5B419DB1190A872200ADFDD3 /* PRTMCoordTrans.h */; };
+		5B419DB4190A872200ADFDD3 /* PRTMCoordTrans.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B419DB3190A872200ADFDD3 /* PRTMCoordTrans.m */; };
+		5B419DBB190A872200ADFDD3 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B419DBA190A872200ADFDD3 /* XCTest.framework */; };
+		5B419DBC190A872200ADFDD3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B419DAC190A872200ADFDD3 /* Foundation.framework */; };
+		5B419DBE190A872200ADFDD3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B419DBD190A872200ADFDD3 /* UIKit.framework */; };
+		5B419DC1190A872200ADFDD3 /* libPRTMCoordTrans.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B419DA9190A872200ADFDD3 /* libPRTMCoordTrans.a */; };
+		5B419DC7190A872200ADFDD3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5B419DC5190A872200ADFDD3 /* InfoPlist.strings */; };
+		5B419DC9190A872200ADFDD3 /* PRTMCoordTransTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B419DC8190A872200ADFDD3 /* PRTMCoordTransTests.m */; };
+		5B419DD3190A877100ADFDD3 /* libProj4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B419DD2190A877100ADFDD3 /* libProj4.a */; };
+		5B419DD4190A877100ADFDD3 /* libProj4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B419DD2190A877100ADFDD3 /* libProj4.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5B419DBF190A872200ADFDD3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5B419DA1190A872100ADFDD3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5B419DA8190A872100ADFDD3;
+			remoteInfo = PRTMCoordTrans;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5B419DA7190A872100ADFDD3 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				5B419DB2190A872200ADFDD3 /* PRTMCoordTrans.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5B419DA9190A872200ADFDD3 /* libPRTMCoordTrans.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPRTMCoordTrans.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B419DAC190A872200ADFDD3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B419DB0190A872200ADFDD3 /* PRTMCoordTrans-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PRTMCoordTrans-Prefix.pch"; sourceTree = "<group>"; };
+		5B419DB1190A872200ADFDD3 /* PRTMCoordTrans.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PRTMCoordTrans.h; sourceTree = "<group>"; };
+		5B419DB3190A872200ADFDD3 /* PRTMCoordTrans.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRTMCoordTrans.m; sourceTree = "<group>"; };
+		5B419DB9190A872200ADFDD3 /* PRTMCoordTransTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PRTMCoordTransTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B419DBA190A872200ADFDD3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5B419DBD190A872200ADFDD3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		5B419DC4190A872200ADFDD3 /* PRTMCoordTransTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PRTMCoordTransTests-Info.plist"; sourceTree = "<group>"; };
+		5B419DC6190A872200ADFDD3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5B419DC8190A872200ADFDD3 /* PRTMCoordTransTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PRTMCoordTransTests.m; sourceTree = "<group>"; };
+		5B419DD2190A877100ADFDD3 /* libProj4.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libProj4.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B419DA6190A872100ADFDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B419DAD190A872200ADFDD3 /* Foundation.framework in Frameworks */,
+				5B419DD3190A877100ADFDD3 /* libProj4.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B419DB6190A872200ADFDD3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B419DBB190A872200ADFDD3 /* XCTest.framework in Frameworks */,
+				5B419DD4190A877100ADFDD3 /* libProj4.a in Frameworks */,
+				5B419DBE190A872200ADFDD3 /* UIKit.framework in Frameworks */,
+				5B419DBC190A872200ADFDD3 /* Foundation.framework in Frameworks */,
+				5B419DC1190A872200ADFDD3 /* libPRTMCoordTrans.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B419DA0190A872100ADFDD3 = {
+			isa = PBXGroup;
+			children = (
+				5B419DAE190A872200ADFDD3 /* PRTMCoordTrans */,
+				5B419DC2190A872200ADFDD3 /* PRTMCoordTransTests */,
+				5B419DAB190A872200ADFDD3 /* Frameworks */,
+				5B419DAA190A872200ADFDD3 /* Products */,
+				5B419DD5190A877600ADFDD3 /* Externals */,
+			);
+			sourceTree = "<group>";
+		};
+		5B419DAA190A872200ADFDD3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B419DA9190A872200ADFDD3 /* libPRTMCoordTrans.a */,
+				5B419DB9190A872200ADFDD3 /* PRTMCoordTransTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B419DAB190A872200ADFDD3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5B419DAC190A872200ADFDD3 /* Foundation.framework */,
+				5B419DBA190A872200ADFDD3 /* XCTest.framework */,
+				5B419DBD190A872200ADFDD3 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5B419DAE190A872200ADFDD3 /* PRTMCoordTrans */ = {
+			isa = PBXGroup;
+			children = (
+				5B419DB1190A872200ADFDD3 /* PRTMCoordTrans.h */,
+				5B419DB3190A872200ADFDD3 /* PRTMCoordTrans.m */,
+				5B419DAF190A872200ADFDD3 /* Supporting Files */,
+			);
+			path = PRTMCoordTrans;
+			sourceTree = "<group>";
+		};
+		5B419DAF190A872200ADFDD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B419DB0190A872200ADFDD3 /* PRTMCoordTrans-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B419DC2190A872200ADFDD3 /* PRTMCoordTransTests */ = {
+			isa = PBXGroup;
+			children = (
+				5B419DC8190A872200ADFDD3 /* PRTMCoordTransTests.m */,
+				5B419DC3190A872200ADFDD3 /* Supporting Files */,
+			);
+			path = PRTMCoordTransTests;
+			sourceTree = "<group>";
+		};
+		5B419DC3190A872200ADFDD3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5B419DC4190A872200ADFDD3 /* PRTMCoordTransTests-Info.plist */,
+				5B419DC5190A872200ADFDD3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5B419DD5190A877600ADFDD3 /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				5B419DD2190A877100ADFDD3 /* libProj4.a */,
+			);
+			name = Externals;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B419DA8190A872100ADFDD3 /* PRTMCoordTrans */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B419DCC190A872200ADFDD3 /* Build configuration list for PBXNativeTarget "PRTMCoordTrans" */;
+			buildPhases = (
+				5B419DA5190A872100ADFDD3 /* Sources */,
+				5B419DA6190A872100ADFDD3 /* Frameworks */,
+				5B419DA7190A872100ADFDD3 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PRTMCoordTrans;
+			productName = PRTMCoordTrans;
+			productReference = 5B419DA9190A872200ADFDD3 /* libPRTMCoordTrans.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5B419DB8190A872200ADFDD3 /* PRTMCoordTransTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B419DCF190A872200ADFDD3 /* Build configuration list for PBXNativeTarget "PRTMCoordTransTests" */;
+			buildPhases = (
+				5B419DB5190A872200ADFDD3 /* Sources */,
+				5B419DB6190A872200ADFDD3 /* Frameworks */,
+				5B419DB7190A872200ADFDD3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B419DC0190A872200ADFDD3 /* PBXTargetDependency */,
+			);
+			name = PRTMCoordTransTests;
+			productName = PRTMCoordTransTests;
+			productReference = 5B419DB9190A872200ADFDD3 /* PRTMCoordTransTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B419DA1190A872100ADFDD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Premist;
+			};
+			buildConfigurationList = 5B419DA4190A872100ADFDD3 /* Build configuration list for PBXProject "PRTMCoordTrans" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5B419DA0190A872100ADFDD3;
+			productRefGroup = 5B419DAA190A872200ADFDD3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B419DA8190A872100ADFDD3 /* PRTMCoordTrans */,
+				5B419DB8190A872200ADFDD3 /* PRTMCoordTransTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B419DB7190A872200ADFDD3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B419DC7190A872200ADFDD3 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B419DA5190A872100ADFDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B419DB4190A872200ADFDD3 /* PRTMCoordTrans.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5B419DB5190A872200ADFDD3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B419DC9190A872200ADFDD3 /* PRTMCoordTransTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B419DC0190A872200ADFDD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5B419DA8190A872100ADFDD3 /* PRTMCoordTrans */;
+			targetProxy = 5B419DBF190A872200ADFDD3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5B419DC5190A872200ADFDD3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B419DC6190A872200ADFDD3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B419DCA190A872200ADFDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5B419DCB190A872200ADFDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B419DCD190A872200ADFDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DSTROOT = /tmp/PRTMCoordTrans.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRTMCoordTrans/PRTMCoordTrans-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Proj4\"/**";
+			};
+			name = Debug;
+		};
+		5B419DCE190A872200ADFDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				DSTROOT = /tmp/PRTMCoordTrans.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRTMCoordTrans/PRTMCoordTrans-Prefix.pch";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "\"$(SRCROOT)/Proj4\"/**";
+			};
+			name = Release;
+		};
+		5B419DD0190A872200ADFDD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRTMCoordTrans/PRTMCoordTrans-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PRTMCoordTransTests/PRTMCoordTransTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5B419DD1190A872200ADFDD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PRTMCoordTrans/PRTMCoordTrans-Prefix.pch";
+				INFOPLIST_FILE = "PRTMCoordTransTests/PRTMCoordTransTests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B419DA4190A872100ADFDD3 /* Build configuration list for PBXProject "PRTMCoordTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B419DCA190A872200ADFDD3 /* Debug */,
+				5B419DCB190A872200ADFDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B419DCC190A872200ADFDD3 /* Build configuration list for PBXNativeTarget "PRTMCoordTrans" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B419DCD190A872200ADFDD3 /* Debug */,
+				5B419DCE190A872200ADFDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5B419DCF190A872200ADFDD3 /* Build configuration list for PBXNativeTarget "PRTMCoordTransTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B419DD0190A872200ADFDD3 /* Debug */,
+				5B419DD1190A872200ADFDD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B419DA1190A872100ADFDD3 /* Project object */;
+}
