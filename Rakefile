@@ -20,7 +20,7 @@ Motion::Project::App.setup do |app|
   app.codesign_certificate = config['CODESIGN_CERTIFICATE']
   
   # Change to false when deploying to TestFlight
-  # app.entitlements['get-task-allow'] = true
+  app.entitlements['get-task-allow'] = true
   
   app.pixatefreestyle.framework = 'vendor/PixateFreestyle.framework'
   app.device_family = [:iphone]
@@ -29,6 +29,8 @@ Motion::Project::App.setup do |app|
   app.pods do
     pod 'SVPullToRefresh'
   end
+  
+  app.vendor_project('vendor/PRProj4', :xcode)
   
   app.development do
     

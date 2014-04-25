@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>A7C8E66C-7A71-4A9B-A0B7-8BD3358D8E9E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PRTMCoordTrans</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>96B03DB3-5E4D-4FD7-A25A-1D0364F5B753</key>
+		<string>ssh://github.com/premist/aerial.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>vendor/PRTMCoordTrans/PRTMCoordTrans.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>96B03DB3-5E4D-4FD7-A25A-1D0364F5B753</key>
+		<string>../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/premist/aerial.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>96B03DB3-5E4D-4FD7-A25A-1D0364F5B753</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>96B03DB3-5E4D-4FD7-A25A-1D0364F5B753</string>
+			<key>IDESourceControlWCCName</key>
+			<string>aerial</string>
+		</dict>
+	</array>
+</dict>
+</plist>
