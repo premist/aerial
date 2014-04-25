@@ -30,7 +30,7 @@ Motion::Project::App.setup do |app|
     pod 'SVPullToRefresh'
   end
   
-  app.vendor_project('vendor/PRProj4', :xcode)
+  app.vendor_project('vendor/PRTMCoordTrans', :xcode)
   
   app.development do
     
