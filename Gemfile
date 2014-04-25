@@ -8,9 +8,6 @@ gem "ProMotion", "~> 1.1.2"
 # Cocoapods
 gem 'motion-cocoapods', '~> 1.4.1'
 
-# Stylesheet
-gem "motion-pixatefreestyle"
-
 # Utilities
 gem "sugarcube", :require => "sugarcube-classic"
 gem "bubble-wrap", :require => ["bubble-wrap/core", "bubble-wrap/reactor"]

@@ -22,7 +22,6 @@ Motion::Project::App.setup do |app|
   # Change to false when deploying to TestFlight
   app.entitlements['get-task-allow'] = true
   
-  app.pixatefreestyle.framework = 'vendor/PixateFreestyle.framework'
   app.device_family = [:iphone]
   app.interface_orientations = [:portrait]
   

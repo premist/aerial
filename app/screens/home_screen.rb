@@ -2,7 +2,8 @@ class HomeScreen < PM::Screen
   attr_accessor :pm10value
   
   def on_load
-    view.styleId = "home"
+    # view.styleId = "home"
+    
     
     @root = UIScrollView.alloc.initWithFrame([[0,20],[320,548]])
     @root.indicatorStyle = UIScrollViewIndicatorStyleWhite;
@@ -10,11 +11,11 @@ class HomeScreen < PM::Screen
     view << @root
     
     if Device.screen.height == 480
-      @root.styleClass = "ip4s"
+      # @root.styleClass = "ip4s"
     end
     
     @block = UIView.alloc.initWithFrame([[0,0], [320,20]])
-    @block.styleId = "status-block"
+    # @block.styleId = "status-block"
     view << @block
     
     @root << @indicator
@@ -25,7 +26,7 @@ class HomeScreen < PM::Screen
       
     end)
     
-    @root.pullToRefreshView.styleId = "pull-to-refresh"
+   #  @root.pullToRefreshView.styleId = "pull-to-refresh"
     @root.pullToRefreshView.textColor = "#FFF".uicolor
     @root.pullToRefreshView.arrowColor = "#FFF".uicolor
     @root.pullToRefreshView.activityIndicatorViewStyle = :white.uiactivityindicatorstyle
@@ -66,13 +67,13 @@ class HomeScreen < PM::Screen
     value = @pm10value.to_s.to_i
     
     if value < 30
-      view.styleClass = "aq-good"
+      # view.styleClass = "aq-good"
     elsif value < 80
-      view.styleClass = "aq-moderate"
+      # view.styleClass = "aq-moderate"
     elsif value < 120
-      view.styleClass = "aq-bad"
+      # view.styleClass = "aq-bad"
     else
-      view.styleClass = "aq-verybad"
+      # view.styleClass = "aq-verybad"
     end
     
     set_title("강남구")
@@ -93,8 +94,8 @@ class HomeScreen < PM::Screen
     else
       @last_updated = text.uilabel
       @last_updated.frame = [[0,0],[320,16]]
-      @last_updated.styleId = "aq-last-updated"
-      @last_updated.alpha = 0
+      # @last_updated.styleId = "aq-last-updated"
+      # @last_updated.alpha = 0
       
       @root << @last_updated
       
@@ -112,8 +113,8 @@ class HomeScreen < PM::Screen
     else
       @title = text.uilabel
       @title.frame = [[0,0],[320,20]]
-      @title.styleId = "aq-title"
-      @title.alpha = 0
+      # @title.styleId = "aq-title"
+      # @title.alpha = 0
       
       @root << @title
       
@@ -137,8 +138,8 @@ class HomeScreen < PM::Screen
     else
       @value = text.uilabel
       @value.frame = [[0,0], [320,120]]
-      @value.styleId = "aq-value"
-      @value.alpha = 0
+      # @value.styleId = "aq-value"
+      # @value.alpha = 0
     
       @root << @value
       
