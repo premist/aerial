@@ -11,6 +11,8 @@ gem 'motion-cocoapods', '~> 1.4.1'
 # Utilities
 gem "sugarcube", :require => "sugarcube-classic"
 gem "bubble-wrap", :require => ["bubble-wrap/core", "bubble-wrap/reactor"]
+gem "teacup"
+gem "sweettea"
 gem "motion-env" # Config management
 gem "afmotion", "~> 2.1.0" # Networking
 gem "wakizashi" # XML parsing

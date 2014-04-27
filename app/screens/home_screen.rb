@@ -1,7 +1,9 @@
 class HomeScreen < PM::Screen
-  attr_accessor :pm10value
   
   def on_load
+    self.stylesheet = :home
+    self.view.stylename = :view
+    
     # view.styleId = "home"
     
     
@@ -27,6 +29,7 @@ class HomeScreen < PM::Screen
     end)
     
    #  @root.pullToRefreshView.styleId = "pull-to-refresh"
+    @root.pullToRefreshView.stylename = :pull_to_refresh
     @root.pullToRefreshView.textColor = "#FFF".uicolor
     @root.pullToRefreshView.arrowColor = "#FFF".uicolor
     @root.pullToRefreshView.activityIndicatorViewStyle = :white.uiactivityindicatorstyle
